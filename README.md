@@ -1,3 +1,9 @@
+### About
+These are the python translations of the examples of *chapter 10 : Spark Streamming* from the book 
+**Learning Spark : Lightning-fast Data Analytics** *By Karau, Holden, Zaharia, Matei, Wendell, Patrick, Konwinski, Andy*
+
+
+
 - There are 2 different files:
     + 10_4.py : This contains the starting example 10-4 using sockets as input source
     + 10_10.p : This contains all the other examples. The reason for keeping them in same files is that they all work on same initial DStream.
