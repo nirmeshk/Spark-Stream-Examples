@@ -16,13 +16,15 @@ These are the python translations of the examples of *chapter 10 : Spark Streamm
     ```bash
     
     $SPARK_HOME/bin/spark-submit --packages org.apache.spark:spark-streaming-kafka_2.10:1.5.1 --master local[4] <Python File> [optional command line parameters] 
-    
+    ```
+- Example to run 10_4.py:
+    ```
     # Example:
     $SPARK_HOME/bin/spark-submit --packages org.apache.spark:spark-streaming-kafka_2.10:1.5.1 --master local[4] 10_4.py
-
-    # Example:
+    ```
+- Example to run 10_10.py:
+    ```
     $SPARK_HOME/bin/spark-submit --packages org.apache.spark:spark-streaming-kafka_2.10:1.5.1 --master local[4] 10_10.py logs/
-    
     ```
 ### References:
 - Learning Spark : Lightning-fast Data Analytics -By Karau, Holden, Zaharia, Matei, Wendell, Patrick, Konwinski, Andy
